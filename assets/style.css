@@ -1,0 +1,249 @@
+body {
+    background-color: lightgrey;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkblue;
+}
+
+.main-head {
+    background-color: #303030;
+}
+
+.main-head h1 {
+    background-color: skyblue;
+    color: skyblue;
+    font-size: 48px;
+    display: inline-block;
+    /* margin-left: 20px; */
+}
+
+.main-head h1 .hover {
+    color: black;
+}
+
+.main-head section {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
+}
+
+.main-head ul {
+    list-style: none;
+    color: skyblue;
+    
+}
+
+.main-head li {
+    display: inline-block;
+    margin-left: 38px;
+    /* float: right; */
+}
+
+.main-head a {
+    text-decoration: none;
+    color: skyblue;
+}
+
+.cool-sub-here {
+    /* display: inline-block; */
+    position: relative;
+    text-align: center;
+}
+
+.cool-sub-here img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+}
+
+
+/*  
+    1) It was troubling adding text inside an image but this source helped https://www.w3schools.com/howto/howto_css_image_text.asp 
+*/
+.bottom-right {
+    background-color: skyblue;
+    /* display: inline-block; */
+    border: 10px solid skyblue;
+    /* float: right; */
+    font-size: 38px;
+    font-weight: 600;
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+
+}
+
+.about-me h2 {
+    padding: 10px;
+    font-size: 58px;
+    font-weight: 500;
+    display: inline-block;
+    margin-left: 80px;
+    border-right: 6px solid darkblue;
+    height: 200px;
+    word-break: break-all;
+    text-align: right;
+}
+
+.about-me p {
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+/*  
+    1)I had touble breaking apart the lines but this source helped https://discourse.wicg.io/t/is-there-a-standard-way-to-break-a-heading-into-multiple-lines-at-a-specific-point/4964 
+    2)
+*/
+.Work {
+    display: inline-block;
+}
+
+.Work img {
+    position: absolute;
+}
+
+.Work h2 {
+    padding: 19px;
+    font-size: 58px;
+    font-weight: 500;
+    display: inline-block;
+    margin-left: 80px;
+    border-right: 6px solid darkblue;
+    height: 140%;
+    word-break: break-all;
+    text-align: right;
+}
+
+.Work h3 {
+    background-color: skyblue;
+    font-size: 35px;
+    position: absolute;
+    border: 15px solid skyblue;
+    border-bottom: 40px solid skyblue;
+}
+
+.Work h4 {
+    background-color: skyblue;
+    position: absolute;
+}
+
+.wave {
+    float: right;
+    /* position: relative;
+    width: 90%;
+    margin: auto;
+    display: block; */
+    
+}
+
+.wave img {
+    display: inline-block;
+    width: 80%;
+    max-height: 70%;
+    position: absolute;
+    border: 10px solid skyblue;
+    margin-left: 20px;
+    margin-top: 45px;
+}
+
+
+.work-line2 {
+    float: right;
+}
+
+.work-line2 img {
+    max-width: 38%;
+    max-height: 25%;
+    object-fit: cover;
+    border: 10px solid skyblue;
+    position: absolute;
+}
+
+.led {
+    top: 125%;
+    right: 50%;
+}
+
+.cal {
+    top: 125%;
+    left: 52.5%;
+}
+
+.pastel {
+    top: 155%;
+    left: 10.4%;
+}
+
+.run {
+    top: 155%;
+    left: 52.5%;
+}
+
+.wave-text h3 {
+    transform: translate(10%,500%);
+}
+
+.wave-text h4 {
+    transform: translate(40%,3100%);
+}
+
+.led-text h3 {
+    transform: translate(10%,1200%);
+}
+
+.led-text h4 {
+    transform: translate(50%,6770%);
+}
+
+.cal-text h3 {
+    transform: translate(545%,1200%);
+}
+
+.cal-text h4 {
+    transform: translate(670%,6770%);
+}
+
+.pastel-text h3 {
+    transform: translate(10%,1600%);
+}
+
+.pastel-text h4 {
+    transform: translate(40%,8900%);
+}
+
+.run-text h3 {
+    transform: translate(505%,1600%);
+}
+
+.run-text h4 {
+    transform: translate(1370%,8900%);
+}
+
+.contacts h5 {
+    padding: 10px;
+    font-size: 58px;
+    font-weight: 500;
+    display: inline-block;
+    margin-left: 30px;
+    border-right: 6px solid darkblue;
+    height: 200px;
+    word-break: break-all;
+    text-align: right;
+}
+
+.contacts ul {
+    list-style: none;
+    display: inline-block;
+}
+
+.contacts li {
+    margin-left: 50px;
+    display: inline-block;
+    font-size: 30px;
+    text-align: end;
+}
+
+.contacts a {
+    color: darkblue;
+}
