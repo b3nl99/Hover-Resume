@@ -44,6 +44,10 @@ body {
     color: skyblue;
 }
 
+.main-head a:hover {
+    color: green;
+}
+
 .cool-sub-here {
     /* display: inline-block; */
     position: relative;
@@ -135,7 +139,10 @@ body {
     margin: auto;
     display: block; */
     
+    
 }
+
+
 
 .wave img {
     display: inline-block;
@@ -145,6 +152,15 @@ body {
     border: 10px solid skyblue;
     margin-left: 20px;
     margin-top: 45px;
+    filter: grayscale(1);
+}
+
+.wave img:hover {
+    filter: none;
+}
+
+.img1 {
+    filter: grayscale(1);
 }
 
 
@@ -246,4 +262,8 @@ body {
 
 .contacts a {
     color: darkblue;
+}
+
+.contacts a:hover {
+    color: green;
 }
